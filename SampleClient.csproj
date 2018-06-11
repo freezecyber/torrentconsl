@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CC2CC3A-4041-4857-AF8B-D58745FD3066}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SampleClient</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>
+    </AppDesignerFolder>
+    <RootNamespace>SampleClient</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <RemoveIntegerChecks>False</RemoveIntegerChecks>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\Samples\Release\</OutputPath>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <RemoveIntegerChecks>False</RemoveIntegerChecks>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Stats|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\build\Samples\Stats\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;STATS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MonoTorrent.main</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Hydrobase">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\Hydrobase.dll</HintPath>
+    </Reference>
+    <Reference Include="HydrobaseSDK">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\HydrobaseSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="HydroMultyUser">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\HydroMultyUser.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="LocaleHundler">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\LocaleHundler.dll</HintPath>
+    </Reference>
+    <Reference Include="Lone Wolf">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\Lone Wolf.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Nat">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\Mono.Nat.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoTorrent">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\MonoTorrent.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Parrot BitTorrent Client">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\Parrot BitTorrent Client.exe</HintPath>
+    </Reference>
+    <Reference Include="Parrot BitTorrent Client.Core">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\Parrot BitTorrent Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ParrotBTSDK">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\ParrotBTSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="pigeon">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\pigeon.dll</HintPath>
+    </Reference>
+    <Reference Include="Scrabler">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\Scrabler.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="The Dark Owl Logger">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\The Dark Owl Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="TimeLimitedWindow">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\TimeLimitedWindow.dll</HintPath>
+    </Reference>
+    <Reference Include="WareForms">
+      <HintPath>C:\Program Files (x86)\Paris Koutsioukis\Parrot BitTorrent Client\WareForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="main.cs" />
+    <Compile Include="TestManualConnection.cs" />
+    <Compile Include="Top10Listener.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <ProjectGuid>{9CC2CC3A-4041-4857-AF8B-D58745FD3066}</ProjectGuid>
+    <RootNamespace>SampleClient</RootNamespace>
+  </PropertyGroup>
+</Project>
